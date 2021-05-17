@@ -17,7 +17,6 @@ public class PE_clothes_douguk {
                 }    
                 
             }
-            
         }
         return answer;
     }
