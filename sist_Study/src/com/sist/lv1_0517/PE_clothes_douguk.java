@@ -8,7 +8,7 @@ public class PE_clothes_douguk {
         for(int i=0; i<reserve.length; i++){ 
             for(int j=num; j<lost.length; j++){
                 
-                if(Math.abs(reserve[i]-lost[j])==1){
+                if(Math.abs(reserve[i]-lost[j])<=1){
                     answer++;
                     i++;
                     num++;
