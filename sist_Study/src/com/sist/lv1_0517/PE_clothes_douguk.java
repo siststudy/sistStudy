@@ -8,8 +8,8 @@ public class PE_clothes_douguk {
         for(int k=0 k<reserve.length; k++){
             for(int m=0; m<lost.length; m++){
                if(reserve[i]==lost[j]){
-                  reserve[i]=0;
-                  lost[j]=0;
+                  reserve[i]=-1;
+                  lost[j]=-1;
                   }
              }
          }
