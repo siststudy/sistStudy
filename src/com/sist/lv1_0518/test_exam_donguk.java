@@ -33,10 +33,8 @@ public int[] solution(int[] answers) {
         }
     
     }
+    //등수 나누기 1등은 -1로 교체
     int arrCount=0;
-    System.out.println(count1);
-    System.out.println(count2);
-    System.out.println(count3);
     int[] totalArr={count1,count2,count3};
     for(int s=10000;s>=0; s--){
         for(int ss=0; ss<3; ss++){
@@ -45,11 +43,13 @@ public int[] solution(int[] answers) {
                     arrCount++;
             }
         }
+    //1등이 생기면 break
         if(totalArr[0]==-1 || totalArr[1]==-1 ||totalArr[2]==-1){
         	break;
         }
         
     }
+	//1등 찾아서 배열에 넣기
     answer=new int[arrCount];
     for(int x=0; x<3;x++){
         for(int z=0;z<arrCount;z++){
