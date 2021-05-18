@@ -54,7 +54,7 @@ public int[] solution(int[] answers) {
     for(int x=0; x<3;x++){
         for(int z=0;z<arrCount;z++){
             if(totalArr[x]==-1){
-                answer[z]=totalArr[x];
+                answer[z]= x+1;
                 x++;
             }
         }
