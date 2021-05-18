@@ -38,7 +38,7 @@ public int[] solution(int[] answers) {
     int[] totalArr={count1,count2,count3};
     for(int s=10000;s>=0; s--){
         for(int ss=0; ss<3; ss++){
-            if(s==totalArr[ss])
+            if(s==totalArr[ss]){
                 totalArr[ss]=-1;
                     arrCount++;
             }
