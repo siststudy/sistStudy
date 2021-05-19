@@ -9,9 +9,12 @@ public class test_exam_seungjun {
         int s2=0;
         int s3=0;
         for(int i=0;i<answers.length;i++){
-            if(answers[i]==n1[i%5]) s1++;
-            if(answers[i]==n2[i%8]) s2++;
-            if(answers[i]==n3[i%10]) s3++;
+            if(answers[i]==n1[i%5]) 
+            	s1++;
+            if(answers[i]==n2[i%8]) 
+            	s2++;
+            if(answers[i]==n3[i%10]) 
+            	s3++;
         }
         if(s1==s2 && s2==s3){
             int answer[] = {1,2,3};
