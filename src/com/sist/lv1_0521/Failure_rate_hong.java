@@ -5,7 +5,7 @@ public class Failure_rate_hong {
 	class Solution {
 	    public int[] solution(int N, int[] stages) {
 	        int[] answer =new int[N];
-	        double[] failNum=new double[N+1];
+	        double[] failNum=new double[N+1];//각 스테이지마다 머무른 사용자수 
 	        double total=stages.length;//통과 스테이지 인원수 
 	        double pass=0;//줄어드는 인원 수
 	        ArrayList<Double> fail=new ArrayList<Double>();//실패율
