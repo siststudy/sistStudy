@@ -14,7 +14,7 @@ public class ConverToThree_jun {
     }
 	
 	public static void main(String[] args) {
-		Jinbub_junho jin = new Jinbub_junho();
+		ConverToThree_jun jin = new ConverToThree_jun();
 		System.out.println(jin.solution(125));
 	}
 }
