@@ -1,4 +1,4 @@
-package com.sist.lv1_0609;
+package com.sist.code;
 import java.util.*;
 public class Dart_dunguk {
 public int solution(String dartResult) {
